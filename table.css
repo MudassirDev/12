@@ -1,0 +1,15 @@
+.main{
+
+    margin: auto;
+    background-color: lightgray;
+    width: 400px;
+    height: 300px;
+    text-align: center;
+    padding: 10px;
+}
+.table{
+    width: 200px;
+    height: auto;
+    display: n;
+    background-color: lightgray;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>counter</title>
+    <script src="counter.js"></script>
+    <style>
+        .container{
+            background-color: aqua;
+            width: 400px;
+            height: 400px;
+            margin-top: 30px;
+            margin: auto;
+            border: none;
+            border-radius: 10px;
+            text-align: center;
+        }
+         .container h1{
+            padding-top: 90px;
+        }
+        .container h2{
+            font-size: 50px;
+        }
+        .row button{
+          
+            width: 100px;
+            height: 40px;
+            border: none;
+        border-radius: 10px;
+        color: white;
+        font-size: large;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>  Counter App </h1>
+        <h2 id="count">0</h2>
+        <div class="row">
+            <button onclick="add()"style="background-color:green;"> Add</button>
+            
+            <button onclick="reset()" style="background-color: red;">Reset</button>
+            <button onclick="sub()" style="background-color: blue;">Sub</button>
+        </div>
+    </div>
+</body>
+</html>

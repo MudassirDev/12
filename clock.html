@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>digital clock</title>
+    <script src="clock.js"></script>
+    <style>
+        .container{
+            width: 300px;
+            height: 530px;
+            background-color: black;
+            border: none;
+            border-radius: 20px;
+            margin: auto;
+            margin-top: -15px;
+        
+        }
+        .container h2{
+            color: red;
+            font-size: 40px;
+            padding-top: 20px;
+            margin-left: 30px;
+        }
+        .container h1{
+            color: rgb(9, 235, 62);
+            border: 2px solid white;
+            width: 260px;
+            margin-left: 15px;
+            text-align: center;
+            margin-top: -3px;
+        }
+        .container p{
+            color: white;
+            text-align: center;
+            font-size: large;
+            margin-top: -5px;
+        }
+    </style>
+</head>
+<body onload="showTime()">
+    <div class="container">
+        <h2 id="digital"></h2>
+        <h1 style="font-size: 30px;">AM  06 : 45 فجر</h1>
+        <h1 style="font-size: 30px;">PM  01 : 00  ظھر </h1>
+        <h1 style="font-size: 30px;">PM  04 : 00  عصر</h1>
+        <h1 style="font-size: 30px;">PM  06 : 08  مغرب </h1>
+        <h1 style="font-size: 30px;">PM  08 : 15  عشاء</h1>
+        <h1 style="font-size: 30px;">PM  01 : 30  جمعه </h1>
+        <marquee behavior="" direction="right"> <h3 style="color: rgb(7, 251, 7); font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;font-size: 30px;margin-top: -1px;">فجر 6:45 
+             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; تلوع 7:13
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  اشراق 7:25
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  چاشت 8:10
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; زوال 12:20
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ظھر 1:00
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; عصر 4:00
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; مغرب 6:08
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; عشاء 8:15</h3></marquee>
+         
+            <p> ALHUMDULILLAH</p>
+    </div>
+</body>
+</html>
